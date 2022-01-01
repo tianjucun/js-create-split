@@ -1,5 +1,5 @@
-const { split2 } = require("./code/split-create");
-const { normalSplit } = require("./code/normal-split-create");
+const { split2 } = require("../code/split-create");
+const { normalSplit } = require("../code/normal-split-create");
 const { TestUnit } = require("./testUnit")
 
 let fn1 = String.prototype.split;
